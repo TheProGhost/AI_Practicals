@@ -1,0 +1,6 @@
+db_read = pd.read_csv("train.csv")
+
+interestedrows_1 = db_read.loc[db_read["Survived"] == 1]
+interestedrows_1 = interestedrows_1[interestedrows_1["Sex"] == "male"]
+interestedrows_1 = interestedrows_1[interestedrows_1["Pclass"] == 1]
+print(interestedrows_1)

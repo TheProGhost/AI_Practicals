@@ -1,0 +1,8 @@
+"""
+1. Find servived passengers when Pclass = 1 and Genger = Male
+2.  "" when age>40 & sibsp = 0
+3. count no of family member travelling together 
+4. when Pclass=3 & gender = Female & age <12
+5. Improve your confusion matrix by parameter re-engineering
+
+"""
